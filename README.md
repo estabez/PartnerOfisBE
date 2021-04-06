@@ -1,0 +1,2 @@
+# PartnerOfisBE
+PartnerOfis projesi backend
