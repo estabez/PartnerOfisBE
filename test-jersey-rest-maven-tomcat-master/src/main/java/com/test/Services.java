@@ -71,13 +71,13 @@ public class Services {
 	public static String orderIdFromFlxp11 = null;
 	
 	public static String jdbcURL="jdbc:postgresql://20.52.6.77:5432/po";
-	public static String jdbcUser = "pouser";
-	public static String jdbcPass = "pouser";
+	public static String jdbcUser = "";
+	public static String jdbcPass = "";
 	
 	/*
 	public static String jdbcURL="jdbc:postgresql://localhost:5432/kolayoto";
-	public static String jdbcUser = "postgres";
-	public static String jdbcPass = "postgres";
+	public static String jdbcUser = "";
+	public static String jdbcPass = "";
 	*/
 	
 	@POST
@@ -2440,7 +2440,7 @@ public class Services {
 
          protected PasswordAuthentication getPasswordAuthentication() {
 
-             return new PasswordAuthentication("AKIAJOZOF25XHW2WIJHQ", "Aq04N53p6Nd5SDNlg0smTudgv9Uw53MEgLv2Rsu4NKFB");
+             return new PasswordAuthentication("", "");
 
          }
 
