@@ -2408,7 +2408,7 @@ public class Services {
 
          protected PasswordAuthentication getPasswordAuthentication() {
 
-             return new PasswordAuthentication("AKIAJOZOF25XHW2WIJHQ", "Aq04N53p6Nd5SDNlg0smTudgv9Uw53MEgLv2Rsu4NKFB");
+             return new PasswordAuthentication("", "");
 
          }
 
